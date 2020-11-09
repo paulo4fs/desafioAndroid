@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">DigitalHouseFoods</string>
+    <string name="app_name">Digital House Foods</string>
+    <string name="splash_screen">splash screen</string>
 </resources>
