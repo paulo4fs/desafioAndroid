@@ -10,7 +10,23 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
         RegisterListener()
+        LoginListener()
     }
+
+    private fun LoginListener() {
+        findViewById<MaterialButton>(R.id.btnLoginLogin).setOnClickListener {
+//            val email = findViewById<TextInputEditText>(R.id.tietEmailLogin).text.toString()
+//            val password = findViewById<TextInputEditText>(R.id.tietPasswordLogin).text.toString()
+//
+//            if (email.isNotEmpty() && password.isNotEmpty()) {
+//                val intent = Intent(this, ActivityRestaurantes::class.java)
+//                startActivity(intent)
+//            }
+            val intent = Intent(this, RestaurantesActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
     private fun RegisterListener() {
         findViewById<MaterialButton>(R.id.btnRegisterLogin).setOnClickListener {
             val intent = Intent(this, SignupActivity::class.java)

@@ -9,4 +9,9 @@
     <string name="nome">Nome</string>
     <string name="repeat_password">Repeat Password</string>
     <string name="Name">Name</string>
+    <string name="NomeCardRestaurante">Tony Roma\'s</string>
+    <string name="imagemrestaurantecard">ImagemRestauranteCard</string>
+    <string name="tony_roma_s">Tony Roma\'s</string>
+    <string name="av_lavandisca_717_indian_polis_s_o_paulo">Av. Lavandisca, 717 - Indianópolis, São Paulo</string>
+    <string name="fecha_s_22_00">Fecha às 22:00</string>
 </resources>
