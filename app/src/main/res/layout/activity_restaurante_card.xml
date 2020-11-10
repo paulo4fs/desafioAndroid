@@ -53,12 +53,13 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewPrato"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:padding="@dimen/size5dp"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvTituloPratosRestaurante"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:spanCount="2"
         tools:listitem="@layout/card_prato" />
 

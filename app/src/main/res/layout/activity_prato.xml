@@ -6,4 +6,48 @@
     android:layout_height="match_parent"
     tools:context=".PratoActivity">
 
+    <ImageView
+        android:id="@+id/ivImagemPrato"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/iv_aoyama"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ibVoltarPrato"
+        android:layout_width="@dimen/size50dp"
+        android:layout_height="@dimen/size50dp"
+        android:background="@color/colorTransparent"
+        android:padding="@dimen/size10dp"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:tint="@color/colorWhite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTituloPrato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/size16dp"
+        android:text="Salada com molho Gengibre"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/size30dp"
+        app:layout_constraintBottom_toBottomOf="@id/ivImagemPrato"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDescricaoprato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/size12dp"
+        android:layout_marginTop="@dimen/size16dp"
+        android:text="Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+        android:textColor="@color/colorDarkGray"
+        android:textSize="@dimen/size18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivImagemPrato" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
