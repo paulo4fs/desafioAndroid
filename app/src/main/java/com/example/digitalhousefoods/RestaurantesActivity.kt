@@ -24,6 +24,18 @@ class RestaurantesActivity : AppCompatActivity() {
                     "Salada com molho Gengibre",
                     "Lorem ipsum foda-se",
                     R.drawable.iv_aoyama
+                ), Prato(
+                    "Salada com molho Gengibre",
+                    "Lorem ipsum foda-se",
+                    R.drawable.iv_aoyama
+                ), Prato(
+                    "Salada com molho Gengibre",
+                    "Lorem ipsum foda-se",
+                    R.drawable.iv_aoyama
+                ), Prato(
+                    "Salada com molho Gengibre",
+                    "Lorem ipsum foda-se",
+                    R.drawable.iv_aoyama
                 )
             )
         ), Restaurante(
@@ -65,6 +77,38 @@ class RestaurantesActivity : AppCompatActivity() {
             R.drawable.iv_senor,
             arrayListOf(
                 Prato(
+                    "Salada com molho Gengibre",
+                    "Lorem ipsum foda-se",
+                    R.drawable.iv_aoyama
+                ), Prato(
+                    "Salada com molho Gengibre",
+                    "Lorem ipsum foda-se",
+                    R.drawable.iv_aoyama
+                ), Prato(
+                    "Salada com molho Gengibre",
+                    "Lorem ipsum foda-se",
+                    R.drawable.iv_aoyama
+                ), Prato(
+                    "Salada com molho Gengibre",
+                    "Lorem ipsum foda-se",
+                    R.drawable.iv_aoyama
+                ), Prato(
+                    "Salada com molho Gengibre",
+                    "Lorem ipsum foda-se",
+                    R.drawable.iv_aoyama
+                ), Prato(
+                    "Salada com molho Gengibre",
+                    "Lorem ipsum foda-se",
+                    R.drawable.iv_aoyama
+                ), Prato(
+                    "Salada com molho Gengibre",
+                    "Lorem ipsum foda-se",
+                    R.drawable.iv_aoyama
+                ), Prato(
+                    "Salada com molho Gengibre",
+                    "Lorem ipsum foda-se",
+                    R.drawable.iv_aoyama
+                ), Prato(
                     "Salada com molho Gengibre",
                     "Lorem ipsum foda-se",
                     R.drawable.iv_aoyama

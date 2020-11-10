@@ -10,5 +10,5 @@
     <color name="colorDarkGray">#8492A6</color>
     <color name="colorDarkGray2">#5A6978</color>
     <color name="colorDarkBlue">#1F2D3D</color>
-    <color name="colorTransparent">#fffffff</color>
+    <color name="colorTransparent">#00000000</color>
 </resources>

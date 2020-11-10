@@ -6,4 +6,60 @@
     android:layout_height="match_parent"
     tools:context=".RestauranteCardActivity">
 
+    <ImageView
+        android:id="@+id/ivImagemRestaurante"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/iv_tonyroma"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ibVoltarRestaurante"
+        android:layout_width="@dimen/size50dp"
+        android:layout_height="@dimen/size50dp"
+        android:background="@color/colorTransparent"
+        android:padding="@dimen/size10dp"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:tint="@color/colorWhite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTituloRestaurante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/size16dp"
+        android:text="Tony Roma's"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/size30dp"
+        app:layout_constraintBottom_toBottomOf="@id/ivImagemRestaurante"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTituloPratosRestaurante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/size12dp"
+        android:layout_marginTop="@dimen/size16dp"
+        android:text="Pratos Principais"
+        android:textColor="@color/colorDarkGray2"
+        android:textSize="@dimen/size30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivImagemRestaurante" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewPrato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/size5dp"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTituloPratosRestaurante"
+        app:spanCount="2"
+        tools:listitem="@layout/card_prato" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
