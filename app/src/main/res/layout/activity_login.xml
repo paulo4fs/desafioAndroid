@@ -73,7 +73,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="@dimen/size60dp"
+        android:layout_marginTop="@dimen/size50dp"
         android:backgroundTint="@color/colorGray"
         android:paddingVertical="@dimen/size16dp"
         android:text="@string/register" />

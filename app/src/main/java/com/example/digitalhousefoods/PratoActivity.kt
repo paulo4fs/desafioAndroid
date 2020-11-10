@@ -12,7 +12,10 @@ class PratoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_prato)
         closeButton()
+        getData()
+    }
 
+    private fun getData() {
         val imagem = intent.getIntExtra("imagem", R.drawable.iv_raster)
         val nome = intent.getStringExtra("nome")
         val descricao = intent.getStringExtra("descricao")
