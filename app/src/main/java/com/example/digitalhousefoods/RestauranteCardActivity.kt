@@ -32,6 +32,7 @@ class RestauranteCardActivity : AppCompatActivity() {
 
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerViewPrato)
 
+//        passagem de dados para a activity Prato
         val restauranteCardAdapter = RestauranteCardAdapter(prato) {
             val intent = Intent(
                 this,

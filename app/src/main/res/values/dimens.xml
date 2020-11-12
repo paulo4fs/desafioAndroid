@@ -15,4 +15,5 @@
     <dimen name="size5dp">5dp</dimen>
     <dimen name="size190dp">190dp</dimen>
     <dimen name="dim36sp">36sp</dimen>
+    <dimen name="size5dp">5dp</dimen>
 </resources>

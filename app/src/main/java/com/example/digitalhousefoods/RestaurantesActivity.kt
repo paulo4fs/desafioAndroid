@@ -9,6 +9,7 @@ import com.example.digitalhousefoods.model.Prato
 import com.example.digitalhousefoods.model.Restaurante
 
 class RestaurantesActivity : AppCompatActivity() {
+//    Dados dos restaurantes
     private val _restaurantes = listOf(
         Restaurante(
             "Tony Roma's",
@@ -134,6 +135,7 @@ class RestaurantesActivity : AppCompatActivity() {
                 this,
                 RestauranteCardActivity::class.java
             )
+//            passagem de dados para activity restauranteCard
             intent.putExtra("nome", it.nome)
             intent.putExtra("imagem", it.imagem)
             intent.putExtra("prato", it.prato)

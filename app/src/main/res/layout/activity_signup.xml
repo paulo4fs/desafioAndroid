@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="16dp"
     tools:context=".SignupActivity">
 
 
@@ -11,8 +12,7 @@
         android:id="@+id/tilNameSignup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/size16dp"
-        android:layout_marginTop="@dimen/size20dp"
+        android:layout_marginTop="@dimen/size5dp"
         app:endIconMode="clear_text"
         app:endIconTint="@color/colorPrimary"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,7 +35,6 @@
         android:id="@+id/tilEmailSignup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/size16dp"
         android:layout_marginTop="@dimen/size10dp"
         app:endIconMode="clear_text"
         app:endIconTint="@color/colorPrimary"
@@ -59,10 +58,8 @@
         android:id="@+id/tilPasswordSignup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/size16dp"
         android:layout_marginTop="@dimen/size10dp"
         android:hint="@string/password"
-        app:endIconMode="password_toggle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tilEmailSignup">
@@ -82,10 +79,8 @@
         android:id="@+id/tilPasswordConfirmationSignup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/size16dp"
         android:layout_marginTop="@dimen/size10dp"
         android:hint="@string/repeat_password"
-        app:endIconMode="password_toggle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tilPasswordSignup">
@@ -98,7 +93,6 @@
             android:inputType="textPassword"
             android:textColor="@color/colorPrimary"
             android:textColorHint="@color/colorPrimary" />
-
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
@@ -106,8 +100,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginHorizontal="@dimen/size16dp"
-        android:layout_marginBottom="@dimen/size16dp"
         android:backgroundTint="@color/colorRed"
         android:paddingVertical="@dimen/size16dp"
         android:text="@string/register"
