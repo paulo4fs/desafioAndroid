@@ -28,6 +28,7 @@
             android:layout_margin="@dimen/size5dp"
             android:maxLines="2"
             android:ellipsize="end"
+            android:fontFamily="@font/roboto"
             android:text="Salada com molho Gengibre"
             android:textAlignment="center"
             android:textColor="@color/colorDarkGray2"

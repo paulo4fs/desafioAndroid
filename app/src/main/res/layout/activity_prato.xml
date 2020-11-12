@@ -32,10 +32,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/size16dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/roboto"
+        android:maxLines="1"
         android:text="Salada com molho Gengibre"
         android:textColor="@color/colorWhite"
-        android:ellipsize="end"
-        android:maxLines="1"
         android:textSize="@dimen/dim30sp"
         app:layout_constraintBottom_toBottomOf="@id/ivImagemPrato"
         app:layout_constraintStart_toStartOf="parent" />
@@ -46,9 +47,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/size12dp"
         android:layout_marginTop="@dimen/size16dp"
+        android:fontFamily="@font/roboto"
         android:text="Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
         android:textColor="@color/colorDarkGray"
-        android:textSize="@dimen/size18sp"
+        android:textSize="@dimen/dim18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ivImagemPrato" />
 
