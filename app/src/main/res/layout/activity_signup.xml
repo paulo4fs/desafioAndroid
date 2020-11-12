@@ -104,7 +104,7 @@
         android:paddingVertical="@dimen/size16dp"
         android:text="@string/register"
         android:textColor="@color/colorWhite"
-        android:textSize="@dimen/size16dp"
+        android:textSize="@dimen/dim18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

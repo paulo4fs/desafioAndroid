@@ -23,6 +23,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/colorWhite"
             android:hint="@string/email"
+            android:textSize="@dimen/dim16sp"
             android:inputType="textEmailAddress"
             android:textColor="@color/colorPrimary"
             android:textColorHint="@color/colorPrimary" />
@@ -42,6 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/colorWhite"
+            android:textSize="@dimen/dim16sp"
             android:inputType="textPassword"
             android:textColor="@color/colorPrimary"
             android:textColorHint="@color/colorPrimary" />
@@ -58,7 +60,7 @@
         android:paddingVertical="@dimen/size16dp"
         android:text="@string/log_in"
         android:textColor="@color/colorWhite"
-        android:textSize="@dimen/size16dp" />
+        android:textSize="@dimen/dim16sp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -66,7 +68,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="@dimen/size40dp"
         android:text="@string/or"
-        android:textSize="@dimen/size16dp" />
+        android:textSize="@dimen/dim16sp" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnRegisterLogin"
@@ -76,6 +78,7 @@
         android:layout_marginTop="@dimen/size50dp"
         android:backgroundTint="@color/colorGray"
         android:paddingVertical="@dimen/size16dp"
-        android:text="@string/register" />
+        android:text="@string/register"
+        android:textSize="@dimen/dim16sp" />
 
 </LinearLayout>

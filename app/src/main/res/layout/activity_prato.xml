@@ -34,7 +34,9 @@
         android:layout_margin="@dimen/size16dp"
         android:text="Salada com molho Gengibre"
         android:textColor="@color/colorWhite"
-        android:textSize="@dimen/size30dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="@dimen/dim30sp"
         app:layout_constraintBottom_toBottomOf="@id/ivImagemPrato"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -46,7 +48,7 @@
         android:layout_marginTop="@dimen/size16dp"
         android:text="Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
         android:textColor="@color/colorDarkGray"
-        android:textSize="@dimen/size18dp"
+        android:textSize="@dimen/size18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ivImagemPrato" />
 

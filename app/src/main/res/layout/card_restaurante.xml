@@ -40,6 +40,7 @@
                 android:id="@+id/tvEnderecoCardRestaurante"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="@dimen/dim14sp"
                 android:text="@string/av_lavandisca_717_indian_polis_s_o_paulo"
                 android:textColor="@color/colorDarkGray"
                 android:textStyle="bold" />
@@ -49,6 +50,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/fecha_s_22_00"
+                android:textSize="@dimen/dim16sp"
                 android:textColor="@color/colorDarkGray"
                 android:textStyle="bold" />
         </LinearLayout>

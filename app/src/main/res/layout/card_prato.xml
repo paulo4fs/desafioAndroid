@@ -26,10 +26,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/size5dp"
-            android:lines="2"
+            android:maxLines="2"
+            android:ellipsize="end"
             android:text="Salada com molho Gengibre"
             android:textAlignment="center"
             android:textColor="@color/colorDarkGray2"
-            android:textSize="18sp" />
+            android:textSize="@dimen/dim18sp" />
     </LinearLayout>
 </androidx.cardview.widget.CardView>
