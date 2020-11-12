@@ -15,6 +15,7 @@ class PratoActivity : AppCompatActivity() {
         getData()
     }
 
+// recebe dados do RestauranteCard
     private fun getData() {
         val imagem = intent.getIntExtra("imagem", R.drawable.iv_raster)
         val nome = intent.getStringExtra("nome")
@@ -28,7 +29,7 @@ class PratoActivity : AppCompatActivity() {
         descricaoPrato.text = descricao
         Picasso.get().load(imagem).into(imagemPrato)
     }
-
+// Botão de voltar setOnClickListener
     private fun closeButton() {
         var backButton = findViewById<ImageButton>(R.id.ibVoltarPrato)
         backButton.setOnClickListener {

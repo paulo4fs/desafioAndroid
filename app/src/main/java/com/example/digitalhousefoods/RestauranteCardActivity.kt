@@ -50,7 +50,7 @@ class RestauranteCardActivity : AppCompatActivity() {
             adapter = restauranteCardAdapter
         }
     }
-
+// Botão de voltar para o Restaurante activity
     private fun closeButton() {
         var backButton = findViewById<ImageButton>(R.id.ibVoltarRestaurante)
         backButton.setOnClickListener {
